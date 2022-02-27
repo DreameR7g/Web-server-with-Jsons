@@ -1,0 +1,26 @@
+{
+  "Dreamer": {
+   "name": "Dreamer Rigorstorm",
+   "likes": "Friends, Raid, Go, Kisa",
+   "dislikes": "People who bully LaLafells",
+   "skills": "Making people laugh, fixing things"
+  },
+  "James": {
+   "name": "James Carmike",
+   "likes": "Music, Hugs, Friends",
+   "dislikes": "Disorganization",
+   "skills": "Being cute, Analyzing things, ????"
+  },
+  "Kisa": {
+   "name": "Kisa Rozen",
+   "likes": "Yellow, gardening, bunnies",
+   "dislikes": "ORANGE!!",
+   "skills": "Doodling, Singing, Knitting"
+  },
+  "Siryu": {
+   "name": "Siryu Unslay",
+   "likes": "Raiding, Food, Cherry",
+   "dislikes": "Being smol",
+   "skills": "Tanking, Coding, Teaching"
+  }
+ }
