@@ -10,7 +10,7 @@ import (
 func main() {
 
 	fileServer := http.FileServer(http.Dir("./"))
-	http.Handle("/", fileServer)
+	http.Handle("./", fileServer)
 	http.HandleFunc("/json", handlers.JsonHandler)
 	http.HandleFunc("/boop", handlers.BoopHandler)
 

@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"time"
 )
 
 func JsonHandler(w http.ResponseWriter, r *http.Request) {
@@ -27,8 +28,11 @@ func JsonHandler(w http.ResponseWriter, r *http.Request) {
 
 	_ = json.Unmarshal(stuff, &lotsofStuff)
 
+	currentTime := time.Now()
+
 	w.Write(stuff)
 
+	fmt.Println("Stuff Json accessed at: ", currentTime)
 }
 
 func BoopHandler(w http.ResponseWriter, r *http.Request) {
@@ -52,5 +56,8 @@ func BoopHandler(w http.ResponseWriter, r *http.Request) {
 	_ = json.Unmarshal(boop, &tonsofBoops)
 
 	w.Write(boop)
+
+	currentTime := time.Now()
+	fmt.Println("Boop Json accessed at:", currentTime)
 
 }
